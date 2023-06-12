@@ -15,3 +15,5 @@ function printData() {
     request.addEventListener("load", printData);
     request.open("GET",'https://restcountries.com/v3.1/all');
     request.send(); 
+
+    
